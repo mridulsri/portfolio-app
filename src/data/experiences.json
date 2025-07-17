@@ -1,0 +1,91 @@
+[
+  {
+    "title": "Technical Architect",
+    "company": "Coforge",
+    "location": "Noida, India",
+    "startDate": "July-2022",
+    "endDate": "Present",
+    "description": "Developing and maintaining a scalable SaaS-based, multi-tenant flight booking application and REST APIs.",
+    "responsibilities": [
+      "Serving as a full-stack individual contributor in a team of 10+ lead-level members.",
+      "Built responsive interfaces with Vue.js and developed backend services using .NET Core."
+    ],
+    "technologies": [
+      ".Net Core",
+      "C#",
+      "Vue.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "Prismic CMS",
+      "GCP",
+      "GitHub",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  {
+    "title": "Lead Technology",
+    "company": "Iris Software",
+    "location": "Noida, India",
+    "startDate": "Sept-2019",
+    "endDate": "July-2022",
+    "description": "Built and maintained an enterprise-grade GS1 barcode management application and supporting APIs.",
+    "responsibilities": [
+      "Led a 4-member team while contributing as a full-stack individual contributor.",
+      "Built responsive interfaces with Vue.js, developed backend services using .NET Core and Python, and collaborated with cross-functional teams."
+    ],
+    "technologies": [".Net Core", "C#", "Vue.js", "PostgreSQL", "GitHub", "Docker"]
+  },
+  {
+    "title": "Tech Lead",
+    "company": "Exzeo Software Pvt Ltd",
+    "location": "Noida, India",
+    "startDate": "Dec-2012",
+    "endDate": "Aug-2019",
+    "description": "Built and maintained large-scale, data-centric housing insurance (P&C) applications, APIs, data scrapers, and a custom search engine.",
+    "responsibilities": [
+      "Led and contributed as a full-stack individual contributor in a 7-member team.",
+      "Built user interfaces with Vue.js and developed backend services using .NET MVC and .NET Core.",
+      "Developed a search engine using Elasticsearch and built data scrapers with Python Scrapy."
+    ],
+    "technologies": [
+      ".Net MVC",
+      ".Net Core",
+      "C#",
+      "Vue.js",
+      "Python",
+      "Sql Server",
+      "PostgreSQL",
+      "MongoDB",
+      "Elastic Search",
+      "BitBucket",
+      "Docker"
+    ]
+  },
+  {
+    "title": "Sr. Software Engineer",
+    "company": "Unthink Technologies",
+    "location": "Noida, India",
+    "startDate": "March-2011",
+    "endDate": "Nov-2012",
+    "description": "Built and maintained a social networking web application.",
+    "responsibilities": [
+      "Built web applications using ASP.NET and DNN as a full-stack individual contributor."
+    ],
+    "technologies": ["Asp.Net MVC", "C#", "Sql Server", "Lucene", "BitBucket"]
+  },
+  {
+    "title": "Sr. Software Engineer",
+    "company": "SmartData Enterprises (I) Ltd",
+    "location": "Mohali, India",
+    "startDate": "Nov-2009",
+    "endDate": "March-2011",
+    "description": "Built and maintained multiple small to medium-sized web applications.",
+    "responsibilities": [
+      "Built web applications using ASP.NET and DNN as a full-stack individual contributor."
+    ],
+    "technologies": ["Asp.Net", "DNN", "C#", "Sql Server", "SVN"]
+  }
+]

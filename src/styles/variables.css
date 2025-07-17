@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #1e90ff;
+  --secondary-color: #facc15;
+  --danger-color: #ef4444;
+
+  --font-main: 'Inter', sans-serif;
+  --container-padding: 1rem;
+}

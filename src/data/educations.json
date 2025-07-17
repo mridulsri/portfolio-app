@@ -1,0 +1,37 @@
+[
+  {
+    "degree": "Master of Computer Application (MCA)",
+    "university": "IGNOU",
+    "startDate": "July-2004",
+    "endDate": "June-2006",
+    "location": "INSDOC Delhi, India"
+  },
+  {
+    "degree": "Master of Science (MSc. in Mathematics)",
+    "university": "Veer Bahadur Singh Purvanchal University",
+    "startDate": "July-2001",
+    "endDate": "June-2003",
+    "location": "Ghazipur (UP), India"
+  },
+  {
+    "degree": "Bachelor of Science (BSc)",
+    "university": "Veer Bahadur Singh Purvanchal University",
+    "startDate": "July-1998",
+    "endDate": "June-2001",
+    "location": "Ghazipur (UP), India"
+  },
+  {
+    "degree": "10+2",
+    "university": "U.P. Board",
+    "startDate": "July-1995",
+    "endDate": "June-1997",
+    "location": "Ghazipur (UP), India"
+  },
+  {
+    "degree": "10th",
+    "university": "U.P. Board",
+    "startDate": "July-1993",
+    "endDate": "June-1995",
+    "location": "Ghazipur (UP), India"
+  }
+]

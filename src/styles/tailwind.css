@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+/* Optional: import custom variables */
+@import './variables.css';
+
+.text-primary {
+  color: rgb(30, 144, 255);
+}
+.text-secondary {
+  color: #2e2d29cf;
+}
+
+@layer utilities {
+  .page-break {
+    page-break-before: always;
+    break-before: page;
+  }
+}

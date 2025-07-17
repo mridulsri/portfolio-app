@@ -1,0 +1,26 @@
+[
+  {
+    "type": "Backends",
+    "skills": [".Net Core", "ASP.NET MVC", "C#", "Node.js", "Python"]
+  },
+  {
+    "type": "Frontend",
+    "skills": ["Vue.js", "React.js", "jQuery", "JavaScript"]
+  },
+  {
+    "type": "Databases",
+    "skills": ["Postgresql", "SQL Server", "MongoDB", "ElasticSearch", "Redis"]
+  },
+  {
+    "type": "Messaging Tools",
+    "skills": ["RabbitMQ"]
+  },
+  {
+    "type": "S/W Patterns",
+    "skills": ["Rest API", "GraphQL", "Modular"]
+  },
+  {
+    "type": "DevOps Tools",
+    "skills": ["Git", "Docker", "Jenkins"]
+  }
+]
