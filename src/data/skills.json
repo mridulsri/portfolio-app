@@ -5,7 +5,7 @@
   },
   {
     "type": "Frontend",
-    "skills": ["Vue.js", "React.js", "jQuery", "JavaScript"]
+    "skills": ["Vue.js", "React.js", "jQuery", "JavaScript", "TypeScript"]
   },
   {
     "type": "Databases",
@@ -20,7 +20,11 @@
     "skills": ["Rest API", "GraphQL", "Modular"]
   },
   {
-    "type": "DevOps Tools",
+    "type": "Design Architecture",
+    "skills": ["Client-Server", "Rest API", "GraphQL", "Event-Driven"]
+  },
+  {
+    "type": "Operations",
     "skills": ["Git", "Docker", "Jenkins"]
   }
 ]

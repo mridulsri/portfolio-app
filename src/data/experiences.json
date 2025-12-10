@@ -11,7 +11,7 @@
       "Built responsive interfaces with Vue.js and developed backend services using .NET Core."
     ],
     "technologies": [
-      ".Net Core",
+      ".NET Core",
       "C#",
       "Vue.js",
       "TypeScript",
@@ -22,7 +22,9 @@
       "GCP",
       "GitHub",
       "Docker",
-      "Kubernetes"
+      "Kubernetes",
+      "Rest API",
+      "SOAP"
     ]
   },
   {
@@ -36,7 +38,7 @@
       "Led a 4-member team while contributing as a full-stack individual contributor.",
       "Built responsive interfaces with Vue.js, developed backend services using .NET Core and Python, and collaborated with cross-functional teams."
     ],
-    "technologies": [".Net Core", "C#", "Vue.js", "PostgreSQL", "GitHub", "Docker"]
+    "technologies": [".NET Core", "C#", "Vue.js", "PostgreSQL", "GitHub", "Docker", "Rest API"]
   },
   {
     "title": "Tech Lead",
@@ -52,7 +54,7 @@
     ],
     "technologies": [
       ".Net MVC",
-      ".Net Core",
+      ".NET Core",
       "C#",
       "Vue.js",
       "Python",
@@ -61,7 +63,9 @@
       "MongoDB",
       "Elastic Search",
       "BitBucket",
-      "Docker"
+      "Docker",
+      "Rest API",
+      "GrapthQL"
     ]
   },
   {
@@ -72,7 +76,7 @@
     "endDate": "Nov-2012",
     "description": "Built and maintained a social networking web application.",
     "responsibilities": [
-      "Built web applications using ASP.NET and DNN as a full-stack individual contributor."
+      "Built web applications using ASP.NET as a full-stack individual contributor."
     ],
     "technologies": ["Asp.Net MVC", "C#", "Sql Server", "Lucene", "BitBucket"]
   },

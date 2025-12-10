@@ -24,7 +24,7 @@ function ResumeExp(props) {
         <ul className="list-disc">
           <li className="mb-1">
             <div className="flex space-x-4">
-              <div className="font-bold w-auto whitespace-nowrap">Role:</div>
+              <div className="font-bold w-auto whitespace-nowrap">Responsibilities:</div>
               <ul>
                 {props.responsibilities.map((role, index) => (
                   <li key={`role_${index}`} className="flex mb-0.5">
@@ -36,10 +36,15 @@ function ResumeExp(props) {
             </div>
           </li>
           <li>
-            <div>
-              <span className="font-bold mr-2">Technology Used:</span>
+            <div className="flex flex-wrap">
+              <span className="font-bold mr-2">Technologies:</span>
               {props.technologies.map((tech, index) => (
-                <span key={`tech_item_${index}`}>{tech} </span>
+                <span
+                  key={`tech_item_${index}`}
+                  className="bg-gray-500 text-white text-xs mr-1 mb-1 px-1 py-0.5 rounded "
+                >
+                  {tech}
+                </span>
               ))}
             </div>
           </li>
