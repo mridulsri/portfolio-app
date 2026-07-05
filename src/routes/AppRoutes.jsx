@@ -1,21 +1,22 @@
-import React, {Suspense, lazy} from "react";
+import React, { Suspense, lazy } from 'react'
 
-import { Routes, Route } from "react-router-dom";
-
-
-const HomePage = lazy(() => import("../pages/HomePage"));
-const ResumePage = lazy(() => import("../pages/ResumePage"));
+import {  Routes, Route } from 'react-router-dom'
+// BrowserRouter
+const HomePage = lazy(() => import('../pages/HomePage'))
+const ResumePage = lazy(() => import('../pages/ResumePage'))
 
 const AppRoutes = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/resume" element={<ResumePage />} />
-        {/* Add more routes as needed */}
-      </Routes>
+      {/* <BrowserRouter basename="/portfolio-app/"> */}
+        <Routes>
+          {/* Add more routes as needed */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/resume" element={<ResumePage />} />
+        </Routes>
+      {/* </BrowserRouter> */}
     </Suspense>
-  );
+  )
 }
 
-export default AppRoutes;
+export default AppRoutes
