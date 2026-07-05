@@ -4,5 +4,15 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/portfolio-app/',
   plugins: [react(), tailwindcss()],
+  // server: {
+  //   port: 5173,
+  //   open: true,
+  // },
+  build: {
+    outDir: 'dist',
+    sourcemap: false,
+    minify: 'terser',
+  },
 })

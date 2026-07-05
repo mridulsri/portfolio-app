@@ -1,7 +1,7 @@
 {
-  "name": "react-portfolio-app",
+  "name": "portfolio-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://mridulsri.github.io/portfolio-app/",
   "scripts": {
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/mridulsri/portfolio-app.git"
+    "deploy": "npm run build && gh-pages -d dist -r https://github.com/mridulsri/portfolio-app.git"
   },
   "dependencies": {
     "@fontsource/lato": "^5.2.6",
