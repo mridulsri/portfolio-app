@@ -9,7 +9,7 @@ const AppRoutes = () => {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       {/* <BrowserRouter basename="/portfolio-app/"> */}
-        <Routes>
+        <Routes basename="/portfolio-app/">
           {/* Add more routes as needed */}
           <Route path="/" element={<HomePage />} />
           <Route path="/resume" element={<ResumePage />} />
