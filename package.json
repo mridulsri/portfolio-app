@@ -1,16 +1,16 @@
 {
+  "homepage": "https://github.io",
   "name": "portfolio-app",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://mridulsri.github.io/portfolio-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d dist -r https://github.com/mridulsri/portfolio-app.git"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@fontsource/lato": "^5.2.6",
@@ -39,6 +39,7 @@
     "prettier": "^3.6.2",
     "tailwindcss": "^4.1.11",
     "terser": "^5.48.0",
-    "vite": "^7.0.0"
+    "vite": "^7.0.0",
+    "copyfiles": "^2.4.1"
   }
 }
