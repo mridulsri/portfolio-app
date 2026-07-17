@@ -1,0 +1,34 @@
+[
+  {
+    "title": "SaaS Flight Booking Platform",
+    "description": "Multi-tenant flight booking application with modular REST APIs, built as part of a 10+ engineer team.",
+    "tech": [".NET Core", "Vue.js", "PostgreSQL", "Redis", "Docker"],
+    "image": "",
+    "repoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "title": "GS1 Barcode Management System",
+    "description": "Enterprise-grade barcode management application and supporting APIs used across manufacturing partners.",
+    "tech": [".NET Core", "Vue.js", "PostgreSQL", "Docker"],
+    "image": "",
+    "repoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "title": "Insurance Search Engine",
+    "description": "Custom search engine and data scraping pipeline for large-scale housing insurance (P&C) data.",
+    "tech": [".NET MVC", "Python", "Elasticsearch", "Scrapy"],
+    "image": "",
+    "repoUrl": "",
+    "liveUrl": ""
+  },
+  {
+    "title": "Developer Portfolio",
+    "description": "This site — a single-page portfolio with dark/light theming and a printable resume, built with React and Tailwind CSS.",
+    "tech": ["React", "Tailwind CSS", "Vite"],
+    "image": "",
+    "repoUrl": "",
+    "liveUrl": ""
+  }
+]

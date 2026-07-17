@@ -5,4 +5,20 @@
 
   --font-main: 'Inter', sans-serif;
   --container-padding: 1rem;
+
+  --surface-bg: #fff7ed;
+  --surface-bg-alt: #ffedd5;
+  --surface-text: #1e1b4b;
+  --surface-muted: #57534e;
+}
+
+.dark {
+  --primary-color: #fb923c;
+  --secondary-color: #d946ef;
+  --danger-color: #f87171;
+
+  --surface-bg: #0f0c29;
+  --surface-bg-alt: #1e1b4b;
+  --surface-text: #fff7ed;
+  --surface-muted: #cbd5e1;
 }

@@ -2,6 +2,9 @@ import js from '@eslint/js'
 import globals from 'globals'
 import reactHooks from 'eslint-plugin-react-hooks'
 import reactRefresh from 'eslint-plugin-react-refresh'
+import react from 'eslint-plugin-react'
+import prettier from 'eslint-plugin-prettier'
+import prettierConfig from 'eslint-config-prettier'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
@@ -10,8 +13,11 @@ export default defineConfig([
     files: ['**/*.{js,jsx}'],
     extends: [
       js.configs.recommended,
+      react.configs.flat.recommended,
+      react.configs.flat['jsx-runtime'],
       reactHooks.configs['recommended-latest'],
       reactRefresh.configs.vite,
+      prettierConfig,
     ],
     languageOptions: {
       ecmaVersion: 2020,
@@ -22,9 +28,13 @@ export default defineConfig([
         sourceType: 'module',
       },
     },
-    plugins: ["prettier"],
+    settings: {
+      react: { version: 'detect' },
+    },
+    plugins: { prettier },
     rules: {
       'no-unused-vars': ['error', { varsIgnorePattern: '^[A-Z_]' }],
+      'react/prop-types': 'off',
     },
   },
 ])

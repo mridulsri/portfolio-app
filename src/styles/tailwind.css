@@ -3,6 +3,35 @@
 /* Optional: import custom variables */
 @import './variables.css';
 
+/* Enable class-based dark mode (toggle the `dark` class on <html>) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Sunset color palette */
+@theme {
+  --color-sunset-50: #fff7ed;
+  --color-sunset-100: #ffedd5;
+  --color-sunset-200: #fed7aa;
+  --color-sunset-300: #fdba74;
+  --color-sunset-400: #fb923c;
+  --color-sunset-500: #f97316;
+  --color-sunset-600: #ea580c;
+  --color-sunset-700: #c2410c;
+  --color-sunset-800: #e11d48;
+  --color-sunset-900: #be123c;
+
+  --color-dusk-500: #d946ef;
+  --color-dusk-600: #a21caf;
+  --color-dusk-700: #701a75;
+
+  --color-midnight-800: #312e81;
+  --color-midnight-900: #1e1b4b;
+  --color-midnight-950: #0f0c29;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .text-primary {
   color: rgb(30, 144, 255);
 }
