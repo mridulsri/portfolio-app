@@ -10,4 +10,11 @@ Act as a expert level UI developer and Create a clean, modern single-page portfo
 "Let's implement Phase 1 from our planning document, using TDD methodology"
 ```
 
+### 1 Set Up Your EmailJS Account
 
+- Go to emailjs.com and create a free account.
+- In your dashboard, click Add New Service and connect your email provider (e.g., Gmail). Note down your Service ID.
+- Go to Email Templates, click Create New Template, customize your email structure, and save it. Note down your Template ID.
+- Go to Account -> API Keys and copy your Public Key.
+
+### 2. Install the EmailJS SDKRun this command in your project terminal:
